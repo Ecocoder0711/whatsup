@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "552003099984",
+    "project_id": "whatsup-vkashyap",
+    "storage_bucket": "whatsup-vkashyap.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552003099984:android:95f5c0a08d1cc4c1dfe055",
+        "android_client_info": {
+          "package_name": "com.example.whatsup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtKcbd6yFVi9EToiZfkq8FtucTvXLNNFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
