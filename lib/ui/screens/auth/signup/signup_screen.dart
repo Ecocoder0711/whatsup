@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:whatsup/core/constants/string.dart';
 import 'package:whatsup/core/constants/styles.dart';
 import 'package:whatsup/ui/widgets/custombutton.dart';
 import 'package:whatsup/ui/widgets/custumtextfield.dart';
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});
-
   @override
   State<SignupScreen> createState() => _SignupScreenState();
 }
@@ -73,7 +73,15 @@ class _SignupScreenState extends State<SignupScreen> {
             13.5.verticalSpace,
             Text("Already have account?"),
             2.5.verticalSpace,
-            Text("Login", style: TextStyle(fontWeight: FontWeight.bold)),
+            InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, login);
+              },
+              child: Text(
+                "Login",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+            ),
 
             // TextButton(onPressed: () {}, child: Text("login")),
           ],
